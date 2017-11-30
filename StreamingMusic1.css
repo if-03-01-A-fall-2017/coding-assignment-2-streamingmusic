@@ -1,35 +1,39 @@
 body{
-  font-family: "Century Gothic", CenturyGothic, sans-serif;
+  font-family: "Century Gothic", CenturyGothic,  sans-serif;
   text-align: justify;
-  background-color: #E6E6E6;
-  color: #424949;
+  background-color:#3AAFA9;
+  color: #17252A;
+  font-weight: normal;
+  font-size: 18px;
 }
 
 h1{
   font-size: 35px;
   text-align: center;
   text-transform: capitalize;
-  font-family: 'Futura';
-  color: #0E6655;
+  font-family: 'Futura', 'Raleway' sans-serif;
+  text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+  color: #FEFFFF;
 }
 h2{
   text-align: left;
-  color: #117A65;
-  font-family: 'Copperplate', cursive;
+  color: #FEFFFF;
+  font-family: 'Copperplate', 'Montserrat', cursive;
   margin-bottom: 10px;
 }
-h3{
+h3, h4{
   text-align: left;
-  color:#138D75;
-  font-family: 'Copperplate', cursive;
+  color:#DEF2F1;
+  font-family: 'Copperplate', 'Montserrat', cursive;
   margin-bottom: 10px;
 }
 
 a:visited{
-  color:#1B4F72;
+  color:#000000;
+
 }
 a:link{
-  color: #2E86C1;
+  color: #59253A;
 }
 
 ul{
