@@ -35,7 +35,36 @@ a:visited{
 a:link{
   color: #59253A;
 }
-
+a.hover{
+  color: #bfbfbf;
+}
 ul{
   list-style-type: disc;
+}
+ .parallaxTech{
+  background-image: url("TechnologyPhoto.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1{
+  background-image: url("MainpagePhoto.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list-inline
+{
+  background-color: black;
+  color: white;
+}
+
+.list-inline a{
+  color: white;
 }
