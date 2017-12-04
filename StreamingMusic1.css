@@ -53,16 +53,17 @@ ul{
 
 .parallax1{
   background-image: url("MainpagePhoto.jpg");
-  height:600px;
-   background-color:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+
 }
 
-.parallax1, parallaxTech{
+.parallax1, .parallaxTech{
   min-height: 2500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height:600px;
+  background-color:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 
 .list-inline
@@ -100,7 +101,8 @@ thead, th
   border-right: 1px solid black;
   float: left;
   box-sizing: border-box;
-  text-align: center;
+  padding-left: 5em:
+  padding-right:5em;
 
 }
 
@@ -108,5 +110,6 @@ thead, th
   width: 50%;
   min-height: 200px;
   float: right;
-  text-align: center;
+  padding-left: 5em:
+  padding-right:5em;
 }
