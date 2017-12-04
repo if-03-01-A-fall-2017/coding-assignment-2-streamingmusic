@@ -43,7 +43,7 @@ ul{
 }
  .parallaxTech{
   background-image: url("TechnologyPhoto.jpg");
-  min-height: 500px;
+  min-height: 2500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -52,7 +52,7 @@ ul{
 
 .parallax1{
   background-image: url("MainpagePhoto.jpg");
-  min-height: 500px;
+  min-height: 2500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
