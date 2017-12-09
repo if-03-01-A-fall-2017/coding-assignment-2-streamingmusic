@@ -45,7 +45,11 @@ a.hover{
   color: #bfbfbf;
 }
 ul{
-  list-style-type: disc;
+  list-style-type: none;
+
+}
+ul a, dl a{
+    font-weight: bold;
 }
  .parallaxTech{
   background-image: url("TechnologyPhoto.jpg");
@@ -87,10 +91,12 @@ td, tr first-child
 
 thead, th
 {
-  background-color: #3AAFA9;
+  background-color: #B1E0DD !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
 }
 
-.btn-link:hover, btn-link:focus
+.btn-link:hover
 {
   color:#bfbfbf !important;
 }
@@ -112,4 +118,8 @@ thead, th
   float: right;
   padding-left: 5em:
   padding-right:5em;
+}
+
+.table-bordered{
+margin: 0px auto !important;
 }
