@@ -107,7 +107,7 @@ thead, th
   border-right: 1px solid black;
   float: left;
   box-sizing: border-box;
-  padding-left: 5em:
+  padding-left: 5em;
   padding-right:5em;
 
 }
@@ -116,7 +116,7 @@ thead, th
   width: 50%;
   min-height: 200px;
   float: right;
-  padding-left: 5em:
+  padding-left: 5em;
   padding-right:5em;
 }
 
